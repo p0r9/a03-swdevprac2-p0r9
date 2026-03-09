@@ -9,7 +9,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  display: block;   /* สำคัญ แก้ปัญหาช่องว่าง */
+  display: block;
 }
 
 .textContainer{
