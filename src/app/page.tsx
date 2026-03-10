@@ -3,7 +3,6 @@ import styles from "./page.module.css";
 
 import Banner from "@/components/Banner"
 import Card from "@/components/Card"
-import { Display } from "phaser";
 
 export default function Home() {
   return (
