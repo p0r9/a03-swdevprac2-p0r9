@@ -3,17 +3,15 @@ import styles from "./page.module.css";
 
 import Banner from "@/components/Banner"
 import Card from "@/components/Card"
+import { Display } from "phaser";
 
 export default function Home() {
   return (
     <main>
-
-      {/* Banner ด้านบน */}
       <Banner />
-
-      {/* Card ด้านล่าง */}
-      <Card />
-
+      <div style={{margin:"20px",display: "flex",flexDirection:"row",flexWrap:"wrap"}}>
+        <Card />
+      </div>
     </main>
   )
 }

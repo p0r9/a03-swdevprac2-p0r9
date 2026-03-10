@@ -1,21 +1,22 @@
 import styles from "./banner.module.css"
+import Image from "next/image";
 
 export default function Banner() {
   return (
     <div className={styles.banner}>
       
-      <img 
-        src="/banner.jpg"
-        alt="banner"
-        className={styles.image}
-      />
+      <Image src={'/img/banner.jpg'} 
+      alt='banner' 
+      fill={true}
+      priority
+      objectFit='cover'/>
 
-      <div className={styles.textContainer}>
+      <div className={styles.bannerText}>
         <h1>where every event finds its venue</h1>
-        <p>
+        <h3>
           Discover the perfect venue for weddings, parties,
           meetings and special celebrations.
-        </p>
+        </h3>
       </div>
 
     </div>
