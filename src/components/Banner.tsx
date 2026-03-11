@@ -14,7 +14,7 @@ export default function Banner() {
       <div className={styles.bannerText}>
         <h1>where every event finds its venue</h1>
         <h3>
-          Discover the perfect venue for weddings, parties,
+          Discover the perfect venue for weddings , parties ,
           meetings and special celebrations.
         </h3>
       </div>
